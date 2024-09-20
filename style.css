@@ -1,0 +1,163 @@
+body {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 2;
+    color: black;
+    font-family: Lato, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -ms-overflow-style: none;
+    overflow-y: scroll;
+    margin: 0;
+}
+
+section,
+footer {
+    margin: 40px;
+}
+
+header {
+    padding: 15px;
+}
+
+#form .formulario, #table{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    color: black;
+    padding: 15px;
+    background-color: azure;
+}
+
+.linkvideos td figure img{
+    width: 361px;
+    height: 361px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+tbody tr td{
+    padding: 5px;
+}
+
+
+legend {
+    color: black;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hove {
+    background-color: #45a049;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    text-shadow: 3px 3px 3px blue;
+}
+
+ul li a {
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+nav li {
+    float: left;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+img {
+    width: 361px;
+    height: 361px;
+    border-radius: 4px;
+}
+
+.container-fluid a img{
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    float: left;
+}
+
+li {
+    list-style: none;
+}
+
+table tr:nth-child(even) {
+    background-color: azure;
+}
+
+table tr:nth-child(odd) {
+    background-color: white;
+}
+
+table thead tr th {
+    background-color: white;
+}
+.bg_video{
+    position: fixed; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto; 
+    height: auto; 
+    z-index: -1000;
+    background: url(videos/fundo.mp4) no-repeat;
+    background-size: cover; 
+}
+.imgLOVE{
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    float: left;
+}
+.cabecario nav ul li{
+    list-style: none;
+}
