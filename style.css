@@ -161,3 +161,7 @@ table thead tr th {
 .cabecario nav ul li{
     list-style: none;
 }
+.ImagemTabela td a img{
+    width: 100px;
+    height: 100px;
+}
